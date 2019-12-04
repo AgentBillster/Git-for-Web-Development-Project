@@ -1,0 +1,125 @@
+https://codepen.io/AgentBillster/pen/abzzJoY?editors=1100
+
+1. What is Semantic HTML? 
+        HTML that is easily read. describing the purpose of elements in themselves
+
+    2. What is HTML used for? 
+        creating webpages
+
+    3. What is an attribute and where do we put it?
+         to control the elements behavior, in ""
+
+    4. What is the h1 tag used for? How many times should I use it on a page?
+        for the main header should only be used for the most important on the page.
+
+    5. Name two tags that have required attributes
+        <a> <img>
+
+    6. What do we put in the head of our HTML document?
+        Header 
+
+    7. What is an id?
+        identification for the selector when styling 
+
+    8. What elements can I add an id to? 
+        any
+
+    9. How many times can I use the same id on a page?
+        once 
+
+    10. What is a class? 
+        attribute that lets you group things together
+
+    11. What elements can I add a class to? 
+        any
+
+    12. How many times can I use the same class on a page?
+        as much as you want
+
+    13. How do I get my link to open in a new tab?
+        target=
+
+    14. What is the alt attribute used for? 
+        alternative text or image if it cant be rendered
+
+    15. How do I reference an id?
+        #
+
+    16. What is the difference between a section and a div
+        section defines the chapters in your page and div puts them in a container
+
+    17. What is CSS used for?
+        styling your html 
+
+    18. How to we select an element? Example - every h2 on the page
+        h2 {
+            code goes here
+        }
+
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+        use an id if the element is always going to be unique and class when multiple elements are getting assigned something 
+
+    20. How do we select classes in CSS?
+        .classname
+
+    21. How do we select a p element with a single class of “human””?
+        .human p {
+        }
+
+    22. What is a parent child selector? When would this be useful?
+        > selects all elements that are the immediate children of the element, you want something styled in different classes that have the same parent maybe
+
+    23. How do you select all links within a div with the class of sidebar?
+        .sidebar a:link
+
+    24. What is a pseudo selector?
+        calls for a special state like hover
+
+    25. What do we use the change the spacing between lines?
+        line-height:
+
+    26. What do we use to change the spacing between letters?
+        letter-spacing:
+
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+        capitalize: uppercase: lowercase:
+
+    28. How do I add a 1px border around my div that is dotted and black?
+        div {
+            border: 1px;
+            outline-style: dotted;
+            outline-color: red;
+        }
+    29. How do I select everything on the page?
+        * 
+    30. How do I write a comment in CSS?
+        /* */ 
+    31. How do I find out what file I am in, when I am using the command line?
+         cd
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+        ls
+
+    33. How do I remove a file via the command line? Why do I have to be careful with this?
+         rm, its permanent
+
+    34. Why should I use version control? 
+        for working with teams for overall ease
+
+    35. How often should I commit to github?
+        every 15 mins
+    36. What is the command we would use to push our repo up to github?
+        git push 
+    37. Walk me through Lambda's git flow.
+        fork
+        add collab
+        clone repo
+        using the command line go to the directory where you want the clone
+        git clone (link)
+        cd into cloned repo
+        create your branch using git checkout -b 'firstname-lastname'
+        work on project
+        git add .
+        git commit -m 'changesmade go here'
+        git push origin
+        submit pull request
+        add tl to review
